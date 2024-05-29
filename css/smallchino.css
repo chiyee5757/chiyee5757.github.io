@@ -1,0 +1,75 @@
+.body{
+    background-color: #ffffff;
+}
+.bg-light{
+    background-color: #FFBD3A !important;
+}
+.navbar-brand img{
+    width: 100%;
+}
+.nav-item{
+    font-size: 22px;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav-link{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #ffffff;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+.navbar-nav {
+    --bs-nav-link-padding-x: 0;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-navbar-color);
+    --bs-nav-link-hover-color: #8F6107;
+    --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #FFBD3A !important;
+}
+.body {
+    position:relative;top: 250px;left:7%;
+}
+/*.header-hover {
+    position:relative;top: 250px;left: 300px;
+    width: 100%;
+}
+.header_hover2 {
+    position:relative;top:160px;left: 850px;
+    position: center; !important
+    width: 100%;
+}
+.header_hover3 {
+    position:relative;top:50px;left: 1200px;
+    width: 100%;
+}
+.background_header_guid {
+    background-position: 100%;
+}*/
